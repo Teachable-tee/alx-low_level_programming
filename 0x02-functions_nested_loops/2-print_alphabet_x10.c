@@ -13,7 +13,7 @@ void print_alphabet(void)
 	for (i = 0; i <= 9; c++)
 
 	{
-		for (c = 'a'; c = 'z'; c++)
+		for (c = 'a'; c <= 'z'; c++)
 		{
 			_putchar(c);
 		}
