@@ -1,5 +1,5 @@
+#include <stdio.h>
 #include "main.h"
-#include <string.h>
 
 /**
  * puts2 - puts2 function
