@@ -6,7 +6,7 @@
  * @src: the source characters
  * @n: the bytes used
  *
- * Reurn: dest
+ * Return: dest
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
