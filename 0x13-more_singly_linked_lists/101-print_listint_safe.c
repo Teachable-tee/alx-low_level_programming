@@ -19,7 +19,6 @@ size_t looped_listint_len(const listint_t *head)
 
 	if (head == NULL || head->next == NULL)
 		return (0);
-	
 
 	tortoise = head->next;
 	hare = (head->next)->next;
@@ -56,7 +55,7 @@ size_t looped_listint_len(const listint_t *head)
 
 /**
  * print_listint_safe - Prints a listint_t safely
- * @haed: A pointer to the head of the listint_t list
+ * @head: A pointer to the head of the listint_t list
  *
  * Return: The number of nodes in the list
  */
